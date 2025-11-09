@@ -20,6 +20,7 @@ Before modeling, we perform **data analysis and feature engineering** to improve
 
 ## Project Structure
 
+```
 telco-feature-engineering/
 │
 ├── data/
@@ -37,6 +38,7 @@ telco-feature-engineering/
 │
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
@@ -73,19 +75,20 @@ Some of the **custom engineered features** include:
 
 ## How to Run
 
-1. Clone the repository:
+1. **Clone the repository**
    ```bash
    git clone https://github.com/<your-username>/telco-feature-engineering.git
    cd telco-feature-engineering
-
-2. Install dependencies:
+2. **Install dependencies**
+   ```bash
    pip install -r requirements.txt
+3. **Place the dataset** under the /data/ folder
+Example: data/telco_churn.csv
+4. **Run the walkthrough notebook**
+   ```bash
+   python notebooks/01_telco_feature_engineering_walkthrough.py
 
-3. Place the dataset under /data folder:
-   data/telco_churn.csv
-
-4.Run the walkthrough notebook:
-  python notebooks/01_telco_feature_engineering_walkthrough.py
+---
 
 ##  Model Output Example
 
